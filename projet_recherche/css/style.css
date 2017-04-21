@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+@font-face {
+    font-family: 'klillregular';
+    src: url('fonts/klill-light-webfont.eot');
+    src: url('fonts/klill-light-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/klill-light-webfont.woff2') format('woff2'), 
+    url('fonts/klill-light-webfont.woff') format('woff'), 
+    url('fonts/klill-light-webfont.ttf') format('truetype'), 
+    url('fonts/klill-light-webfont.svg#klillregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'gobold_extra2';
+    src: url('fonts/gobold_extra2-webfont.eot');
+    src: url('fonts/gobold_extra2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gobold_extra2-webfont.woff2') format('woff2'),
+         url('fonts/gobold_extra2-webfont.woff') format('woff'),
+         url('fonts/gobold_extra2-webfont.svg#gobold_extra2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'klillregular';
+	font-size: 16px;
+    background-color: #fff;
+    color: #301717;
+}
+
+.container-fluid{
+	max-width: 960px;
+	margin: 0 auto;
+    border: 3px solid #ac1917;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*-------------HEADER-------------*/
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header img{
+    margin-right: 20px;
+}
+
+header h1{
+    font-family: 'gobold_extra2';
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+/*-------------CONTENU-------------*/
+.contenu p{
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.contenu .paragraphe-image img{
+    width: 70%;
+    margin: 1% 17%;
+}
+
+.contenu .btn-retourner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contenu .btn-retourner img{
+    width: 70%;
+}
